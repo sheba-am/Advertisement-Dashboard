@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("../src/assets/fonts/yekan-regular.ttf") format("truetype"),
+       url("../src/assets/fonts/yekan-regular.woff") format("woff")
+       ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+  font-family: "Yekan" ;
+  direction: rtl;
+  text-align: right;
+}
+
 .App {
   text-align: center;
 }
